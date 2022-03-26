@@ -30,6 +30,7 @@ public class ROT13Test {
         String actual = cipher.rotate(s1, 'D');
 
         // Then
+        System.out.println(actual);
         Assertions.assertTrue(actual.equals(s2));
     }
 
@@ -65,7 +66,6 @@ public class ROT13Test {
         System.out.println(A1);
         // Then
         Assertions.assertTrue(actual.equals(A1));
-
         // When
         String actual2 = cipher.decrypt(Q2);
         System.out.println(Q2);
