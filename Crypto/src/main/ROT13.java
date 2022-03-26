@@ -12,7 +12,6 @@ public class ROT13  {
 
 
     public String crypt(String text) throws UnsupportedOperationException {
-
         return "";
     }
 
@@ -25,7 +24,6 @@ public class ROT13  {
     }
 
     public static String rotate(String s, Character c) {
-
         return "";
     }
 
